@@ -60,7 +60,7 @@ for (size_t i = 0; i < numThreads; i++)
 	}
  std::cout << "Suma en Paralelo: " << sumaThreads << std::endl;
 ```
-#### 3 Desempeño del problema
+### 3 Desempeño del problema
 Para poder evaluar el desempeño se tienen que hacer pruebas al código creado a través de funciones de tiempo para comparar si es más eficiente usar threads para este trabajo o no.
 Para esto se usará la libreria de c++ Chrono que permite ver el el tiempo de ejecución de la funcion, esta se utiliza de la siguiente manera. 
 ```
